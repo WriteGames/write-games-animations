@@ -1,7 +1,10 @@
-import {makeProject} from '@motion-canvas/core';
+import { makeProject } from '@motion-canvas/core';
 
-import example from './scenes/example?scene';
+import logoTall from './scenes/logo-stacked?scene';
+import logoWide from './scenes/logo-wide?scene';
+
+import './global.css';
 
 export default makeProject({
-  scenes: [example],
+	scenes: [logoTall, logoWide],
 });
